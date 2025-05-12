@@ -6,4 +6,22 @@ img {
 
 body {
   background-image: url(images/city.jpg);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 110px; /* Adjust as needed */
+  right: 110px; /* Adjust as needed */
+  color: white;
+  font-size: 20px; /* Adjust text size */
 }
